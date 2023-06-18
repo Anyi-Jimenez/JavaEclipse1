@@ -1,0 +1,21 @@
+package operadoresLogicos;
+
+public class ejerciciosOperadoresLogicos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*Los operadores lógicos se utilizan para cobinar valores booleanos y nos devuelven un resultado verdae¿dero, falso o nulo. */
+		//&& and (Y)
+		//|| or (O)
+		//! not (not)
+		
+		int a = 5;
+		int b = 3;
+		
+		System.out.println( a == b && a > b);
+		
+
+	}
+
+}

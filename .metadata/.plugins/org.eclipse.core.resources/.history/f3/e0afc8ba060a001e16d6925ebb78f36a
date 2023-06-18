@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author carbo
+ *
+ */
+module operadoresLogicos {
+}

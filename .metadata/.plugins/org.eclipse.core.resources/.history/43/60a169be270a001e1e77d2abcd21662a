@@ -1,0 +1,33 @@
+package condicionalesYCiclos;
+
+public class CondicionalesYCiclos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*final int edad = 31; //que esta variable es constante, ya tiene un valor final
+		
+		
+		System.out.println("La edad es: " + edad);*/
+		
+		
+		/*
+		 * Condicionales
+		 * 
+		 * if
+		 * else
+		 * if else
+		 * switch
+		 * 
+		 * 
+		 */
+		
+		System.out.println("Programa para calcular la hora");
+		int hora = 13;
+		if(hora >= 0 && hora <=24) { //true
+			System.out.println("Buenos días solecito");
+			
+		}
+
+	}
+
+}

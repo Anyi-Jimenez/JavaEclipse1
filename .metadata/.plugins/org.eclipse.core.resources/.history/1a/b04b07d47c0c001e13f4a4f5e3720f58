@@ -1,0 +1,13 @@
+package entidaes;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		Empleado EvilFelipe = new Empleado("EvilFElipe", 31, "evilFelipe@gmail.com", "5511223344", "ABC123", "90876567389", "Bell Boy" );
+		
+		EvilFelipe.mostrarInformacion();
+	
+	}
+
+}
