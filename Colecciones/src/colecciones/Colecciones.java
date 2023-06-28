@@ -3,6 +3,14 @@ package colecciones;
 import java.util.Set;//papa
 import java.util.HashSet;//hijo
 
+import java.util.ArrayList;
+import java.util.List;
+
+
+
+import java.util.Map;
+import java.util.HashMap;
+
 
 public class Colecciones {
 
@@ -49,10 +57,79 @@ public class Colecciones {
 		
 		for(String habitacionTemporal : habitaciones) {
 			System.out.println(habitacionTemporal);
-		}
+		}//for
 		
+		//ArrayList para una lista de contactos
+		
+		//Uso la interface List que almacena Contactos (objeto), se llama listaDeContactos e instancia un arrayList para manejar los mismos tipos de datos (contacto). 
+		List<Cliente> listaDeClientes = new ArrayList<>();
+		
+		//Primero instancio un objeto de la clase cliente (nombre, cuenta, saldo. nip)
+		Cliente Felipe = new Cliente ("Felipe Maqueda", "ABC123", 156.50f, "1234");
+		
+		//Agrego el cliente a mi lista de clientes con el método add
+		listaDeClientes.add(Felipe);
+		
+		//Instancio al cliente y lo agrego a la lista
+		listaDeClientes.add(new Cliente("Naruto", "XXX111", 100.00f, "0000"));
+		
+		//Primero crear mis objetos, y luego aregarlos
+		//Hacer los mismo en una sola línea
+		
+		//Imprimo la información de mi lista
+		System.out.println(listaDeClientes);
+		System.out.println();
+	//
+		//Sacar un elemento de la lista y asignarlo a una variable
+		Cliente datoDeLaLista = listaDeClientes.get(0);
+		
+		//Imprimir el elemento de la lista con un dato específico
+		System.out.println(datoDeLaLista);
+		
+		System.out.println();
+		
+		listaDeClientes.remove(0);
 	
-	}
+			System.out.println(listaDeClientes);
+		
+			//Conjunto para servicios de un hotel
+			Set<String> roomService = new HashSet<>();
+			
+			//Agregamos elementos a nuestro hashset
+			
+			roomService.add("Chilaquiles");
+			roomService.add("Agua mineral");
+			roomService.add("Wi-fi");
+			
+			//Hotel co promoción (si pidieron agua mineral aplicamos un descuento del 50%
+			
+			if(roomService.contains("Agua mineral")) {
+				System.out.println("Obtienes un descuento del 50%");
+			}
+			
+			//Que pasa si imprimo mi roomService?
+			
+			//Borramos toda la lista de room service
+			roomService.clear();
+			
+			System.out.println(roomService);
+			
+			//HashMap para mi sistema de reservas del hotel
+			
+			Map<String, Cliente> reservaHabitacion = new HashMap<>();
+			
+			reservaHabitacion.put("101", new Cliente("Jesus", "135JJJ", 1890.87f, "0011"));
+			
+			reservaHabitacion.put("102", new Cliente("Bugs Bunny", "BGSB12", 10890.87f, "7777"));
+			
+			//Impresión de una reserva
+			
+			Cliente reservaBugsBunny = reservaHabitacion.get("102");//Obtener un dato del hashmap (key)
+			
+			
+			//Qué pasa si imprimo la variable reservaHabitación
+	
+	}//main
 
 }
 
@@ -64,7 +141,43 @@ Colecciones
 Un array es una estructura de datos linea que contiene elementos del mismo tipo. La longitud de un array se establece al momento de crearlo y no puede cambiar. No cuenta con metodos adicionales para agregar o eliminar elementos. Los elementos estan almacenados de forma contigua en memoria, y se puede acceder a ellos a traves de un indice. Sus principales caracteristicas son:
 
     1. Tamanio fijo.
+    
     2. Acceso rapido.
     3. Coste elevado para insertar o eliminar elementos. 
+    
+    
+    -ArrayList
+    
+    Es una implementació de una colección llamada list (interface superior), y se utiliza mucho para almacenar elementos en una forma dinámica.
+    
+    Las principales características de un ArrayList son:
+    
+    1. Tamaño dinámico
+    2. Acceso rápido
+    3. Coste elevado para insertar o eliminar elementos
+    
+    
+- set
+Es una estructura de datos que almacena elementos únicos sin orden específico. Las principales características de un set son:
 
-*/
+1. No hay elementos duplicados
+2. No hay un orden específico
+3. Búsqueda más rapida (key-value)
+
+-HashMap
+
+Es una implementación de lainterfazz Map de Java, que permite que la información se almacene en pares clave-valor. Sus principales características son:
+
+1. Almacenamiento K y V
+2. Sin orden específico
+3. Busqueda rápida
+4. Iteración rapida (for each)
+5. No sincronizado (hilos)
+ * 
+
+ */
+    
+    
+    
+    
+    

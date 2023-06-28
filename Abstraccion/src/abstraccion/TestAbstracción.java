@@ -18,7 +18,7 @@ public class TestAbstracción {
 		myTroquita.frenar();
 		ninja.frenar();
 		
-		//La única clase abstracta es el vehículo, el automovil y motocicleta son clases concretas.
+		//La única clase abstracta es el vehículo, el automovil y motocicleta son clases concretas.e
 		
 
 

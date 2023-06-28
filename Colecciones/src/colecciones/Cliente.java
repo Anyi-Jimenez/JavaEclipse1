@@ -1,4 +1,4 @@
-package entidaes;
+package colecciones;
 
 public class Cliente {
 	//1. Atributos

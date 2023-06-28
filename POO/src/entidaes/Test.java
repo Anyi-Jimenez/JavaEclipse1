@@ -1,5 +1,7 @@
 package entidaes;
 
+import colecciones.Cliente;
+
 public class Test {
 
 	public static void main(String[] args) {

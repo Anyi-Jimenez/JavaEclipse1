@@ -1,6 +1,18 @@
 INDEX VERSION 1.132+C:\Users\carbo\Documents\Estudio programación\Generation\Sesiones\23.06.13 OperadoresLogicos Java Eclipse\OperadoresLogicos\.metadata\.plugins\org.eclipse.jdt.core
-3713781644.index
 1865797976.index
-1570852477.index
-1596501301.index
-561193199.index
+1452196806.index
+860736525.index
+589168997.index
+3930990336.index
+101009336.index
+47289663.index
+2732871118.index
+2404439084.index
+751004744.index
+1886409405.index
+2153466985.index
+2333031194.index
+397917895.index
+477378084.index
+114704074.index
+1652357930.index
